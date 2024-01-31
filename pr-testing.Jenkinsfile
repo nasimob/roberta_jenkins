@@ -12,6 +12,7 @@ pipeline {
                 sh '''
                 pip install pytest
                 pip install pylint
+                pip install flask transformers textstat
                 python3 -m pytest --junitxml results.xml tests
                 '''
             }
