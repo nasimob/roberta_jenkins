@@ -11,6 +11,7 @@ pipeline {
 
                 sh '''
                 pip install pytest
+                pip install pylint
                 python3 -m pytest --junitxml results.xml tests
                 '''
             }
@@ -25,6 +26,7 @@ pipeline {
         steps {
           sh 'python3 -m pylint -f parseable --reports=no *.py > pylint.log'
         }
+
         post {
           always {
             sh 'cat pylint.log'
