@@ -45,7 +45,6 @@ pipeline {
                 echo "testing"
                 sh '''
                 docker run -d -p 8081:8081 -p 50000:50000 --name Roberta_container $ECR_URL/$IMAGE_NAME:37
-
                 sleep 10
 
                 curl "localhost:8081/analyze?text=Intel%20is%20happy%20and%20excited%20to%20launch%20the%20new%20generation%20of%20processors"
