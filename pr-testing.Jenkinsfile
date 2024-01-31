@@ -41,8 +41,7 @@ pipeline {
 
         }
         stage('Functional test') {
-            steps {
-                echo "testing"
+            script {
                 sh '''
                 docker run -d -p 8081:8081 -p 50000:50000 --name Roberta_container $ECR_URL/$IMAGE_NAME:37
 
@@ -52,6 +51,8 @@ pipeline {
                 curl "localhost:8081/analyze?text=This%20is%20terrible%20movie."
                 curl "localhost:8081/analyze?text=This%20is%20a%20neutral%20statement"
                 '''
+
+                // Move variable definitions here
                 def expected1 = 'positive labels: optimism, excitement'
                 def expected2 = 'negative labels: disappointment, disgust, fear'
                 def expected3 = 'neutral labels: neutral'
@@ -60,7 +61,7 @@ pipeline {
                 def result2 = readFile('result2.txt').trim()
                 def result3 = readFile('result3.txt').trim()
 
-
+                // Compare results to expected sentiments
                 assert result1.contains(expected1)
                 assert result2.contains(expected2)
                 assert result3.contains(expected3)
@@ -69,13 +70,9 @@ pipeline {
                 echo "Result 2: $result2"
                 echo "Result 3: $result3"
 
-                sh ''''
-                docker stop  Roberta_container
-                docker rm  Roberta_container
-
-                '''
-
-
+                // Cleanup: Stop and remove the container
+                sh 'docker stop Roberta_container'
+                sh 'docker rm Roberta_container'
             }
         }
     }
