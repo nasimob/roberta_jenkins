@@ -51,7 +51,7 @@ pipeline {
                 curl "localhost:8081/analyze?text=Intel%20is%20happy%20and%20excited%20to%20launch%20the%20new%20generation%20of%20processors"
                 curl "localhost:8081/analyze?text=This%20is%20terrible%20movie."
                 curl "localhost:8081/analyze?text=This%20is%20a%20neutral%20statement"
-
+                '''
                 def expected1 = 'positive labels: optimism, excitement'
                 def expected2 = 'negative labels: disappointment, disgust, fear'
                 def expected3 = 'neutral labels: neutral'
@@ -69,10 +69,10 @@ pipeline {
                 echo "Result 2: $result2"
                 echo "Result 3: $result3"
 
-
+                sh ''''
                 docker stop  Roberta_container
                 docker rm  Roberta_container
-                docker
+
                 '''
 
 
