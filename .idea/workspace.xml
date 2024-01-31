@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb6f7b11-ff9e-4a67-b076-fbedebb565fa" name="Changes" comment="add jenkins_debloy with cleanup docker">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="bb6f7b11-ff9e-4a67-b076-fbedebb565fa" name="Changes" comment="add pr-testing" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -188,7 +186,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706709757603</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="add pr-testing">
+      <option name="closed" value="true" />
+      <created>1706720812705</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1706720812705</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -200,6 +206,7 @@
     <MESSAGE value="add docker image to ecr with a tag" />
     <MESSAGE value="add jenkins_debloy" />
     <MESSAGE value="add jenkins_debloy with cleanup docker" />
-    <option name="LAST_COMMIT_MESSAGE" value="add jenkins_debloy with cleanup docker" />
+    <MESSAGE value="add pr-testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="add pr-testing" />
   </component>
 </project>
