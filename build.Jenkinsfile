@@ -9,6 +9,7 @@ pipeline {
                 sh '''
                     echo "Multiline shell steps works too"
                     ls -lah
+                    docker build -t roberta_image .
                 '''
             }
         }
