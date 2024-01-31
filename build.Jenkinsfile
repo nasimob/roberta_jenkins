@@ -20,7 +20,7 @@ pipeline {
         stage('Trigger Deploy') {
             steps {
                 build job: 'RobertaDeploy', wait: false, parameters: [
-                    string(name: 'ROBERTA_IMAGE_URL', value: "$ECR_URL/$IMAGE_NAME:$BUILD_NUMBER")
+                    string(name: 'ROBERTA_IMAGE_URL', value: ""${ECR_URL}/${IMAGE_NAME}:${BUILD_NUMBER}")
                 ]
               }
         }
