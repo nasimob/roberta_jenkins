@@ -51,11 +51,11 @@ pipeline {
                 curl "localhost:8081/analyze?text=This%20is%20terrible%20movie."
                 curl "localhost:8081/analyze?text=This%20is%20a%20neutral%20statement"
                 '''
-                def expected1 = 'positive labels: optimism, excitement'
+               /* def expected1 = 'positive labels: optimism, excitement'
                 def expected2 = 'negative labels: disappointment, disgust, fear'
                 def expected3 = 'neutral labels: neutral'
 
-                /*def result1 = readFile('result1.txt').trim()
+                def result1 = readFile('result1.txt').trim()
                 def result2 = readFile('result2.txt').trim()
                 def result3 = readFile('result3.txt').trim()
 
