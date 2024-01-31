@@ -5,6 +5,11 @@ pipeline {
     IMAGE_NAME = 'nasim_roberta'
     }
     stages {
+        stage('Clean Workspace Before Build') {
+            steps {
+                cleanWs() // Clean the workspace before this stage
+                }
+        }
         stage('Build') {
             steps {
                 sh 'ls'
@@ -15,6 +20,11 @@ pipeline {
                     docker tag $IMAGE_NAME:${BUILD_NUMBER} $ECR_URL/$IMAGE_NAME:${BUILD_NUMBER}
                     docker push $ECR_URL/$IMAGE_NAME:${BUILD_NUMBER}
                 '''
+            }
+        }
+        stage('Clean Workspace After Build') {
+            steps {
+                cleanWs() // Clean the workspace after this stage
             }
         }
         stage('Trigger Deploy') {
