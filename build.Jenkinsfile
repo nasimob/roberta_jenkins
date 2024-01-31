@@ -24,6 +24,14 @@ pipeline {
                 ]
               }
         }
+        post {
+            always {
+                script {
+                    // Cleanup Docker images
+                    sh 'docker image prune -af'
+                }
+            }
+        }
 
     }
 }
