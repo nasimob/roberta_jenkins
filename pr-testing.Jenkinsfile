@@ -45,9 +45,9 @@ pipeline {
                 echo "testing"
                 sh '''
                 docker run -d -p 8081:8081 -p 50000:50000 --name Roberta_container $ECR_URL/$IMAGE_NAME:37
-                // Wait for the container to start (adjust sleep time as needed)
+
                 sleep 10
-                        // Perform functional tests
+
                 curl "localhost:8081/analyze?text=Intel%20is%20happy%20and%20excited%20to%20launch%20the%20new%20generation%20of%20processors"
                 curl "localhost:8081/analyze?text=This%20is%20terrible%20movie."
                 curl "localhost:8081/analyze?text=This%20is%20a%20neutral%20statement"
@@ -60,7 +60,7 @@ pipeline {
                 def result2 = readFile('result2.txt').trim()
                 def result3 = readFile('result3.txt').trim()
 
-                // Compare results to expected sentiments
+
                 assert result1.contains(expected1)
                 assert result2.contains(expected2)
                 assert result3.contains(expected3)
@@ -69,7 +69,7 @@ pipeline {
                 echo "Result 2: $result2"
                 echo "Result 3: $result3"
 
-                // Cleanup: Stop and remove the container
+
                 docker stop  Roberta_container
                 docker rm  Roberta_container
                 docker
