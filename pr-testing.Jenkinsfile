@@ -32,14 +32,13 @@ pipeline {
           always {
             sh 'cat pylint.log'
             recordIssues (
-              enabledForFailure: true,
-              aggregatingResults: true,
-              tools: [pyLint(name: 'Pylint', pattern: '**/pylint.log')]
+            enabledForFailure: true,
+            aggregatingResults: true,
+            tools: [pyLint(name: 'Pylint', pattern: '**/pylint.log')]
             )
           }
         }
-
-
+        }
         stage('Functional test') {
             steps {
                 echo "testing"
