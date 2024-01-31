@@ -5,11 +5,6 @@ pipeline {
     IMAGE_NAME = 'nasim_roberta'
     }
     stages {
-        stage('Clean Workspace Before Build') {
-            steps {
-                cleanWs() // Clean the workspace before this stage
-                }
-        }
         stage('Build') {
             steps {
                 sh 'ls'
