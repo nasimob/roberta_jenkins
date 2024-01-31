@@ -56,7 +56,7 @@ pipeline {
                 def expected2 = 'negative labels: disappointment, disgust, fear'
                 def expected3 = 'neutral labels: neutral'
 
-                def result1 = readFile('result1.txt').trim()
+                /*def result1 = readFile('result1.txt').trim()
                 def result2 = readFile('result2.txt').trim()
                 def result3 = readFile('result3.txt').trim()
 
@@ -67,7 +67,7 @@ pipeline {
 
                 echo "Result 1: $result1"
                 echo "Result 2: $result2"
-                echo "Result 3: $result3"
+                echo "Result 3: $result3"*/
 
                 sh '''
                 docker stop  Roberta_container
