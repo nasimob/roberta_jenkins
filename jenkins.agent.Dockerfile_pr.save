@@ -44,9 +44,9 @@ COPY --from=installer /venv /venv
 ENV PATH="/venv/bin:${PATH}"
 ENV PATH="/venv:${PATH}"
 
-ENV PATH="/usr/bin:${PATH}"
 
 
 # Verify Python and pip in the virtual environment
 RUN python3 --version
 RUN pip3 --version
+
