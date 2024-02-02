@@ -16,7 +16,7 @@ pipeline {
                 echo "testing"
 
                 sh '''
-                python3 install python3-pip -y
+
                 pip install pytest
                 pip install pylint
                 pip install flask transformers textstat
