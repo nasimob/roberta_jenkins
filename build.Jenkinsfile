@@ -6,6 +6,7 @@ pipeline {
     agent {
 
         docker {
+
             label 'general'
             image '933060838752.dkr.ecr.eu-north-1.amazonaws.com/nasim_jenkins.agent:latest'
             args  '--user root -v /var/run/docker.sock:/var/run/docker.sock'
