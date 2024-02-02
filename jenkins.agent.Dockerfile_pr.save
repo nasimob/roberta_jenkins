@@ -17,16 +17,14 @@ RUN mkdir /snyk && cd /snyk \
     && curl https://static.snyk.io/cli/v1.666.0/snyk-linux -o snyk \
     && chmod +x ./snyk
 
-# Install Python and create venv
+# Install Python
 
 RUN apt-get update \
-    && apt-get install -y python3 python3-venv
+    && apt-get install python3 -y
 
 # Install pip for Python
-RUN apt-get install -y python3-pip
-
-# Create a Python virtual environment
-RUN python3 -m venv /venv
+RUN apt-get update \
+    && apt-get install python3-pip -y
 
 
 FROM jenkins/agent
@@ -38,10 +36,5 @@ COPY --from=docker /usr/local/bin/docker /usr/local/bin/
 COPY --from=installer /usr/local/aws-cli/ /usr/local/aws-cli/
 COPY --from=installer /aws-cli-bin/ /usr/local/bin/
 COPY --from=installer /snyk/ /usr/local/bin/
+COPY --from=installer /usr/bin/pip /usr/local/bin/
 
-# Copy Python venv from Installer stage
-COPY --from=`installer /venv /venv
-COPY --from= installer /usr/bin/pip /usr/local/bin/
-
-# Set PATH to include Python venv
-ENV PATH="/venv/bin:$PATH"
