@@ -1,8 +1,13 @@
 pipeline {
-    agent any
     environment {
     ECR_URL='933060838752.dkr.ecr.eu-north-1.amazonaws.com'
     IMAGE_NAME = 'nasim_roberta'
+    }
+    agent {
+        docker {
+            image '$ECR_URL/nasim_jenkins.agent:latest'
+            args  '--user root -v /var/run/docker.sock:/var/run/docker.sock'
+        }
     }
     stages {
         stage('Build') {
