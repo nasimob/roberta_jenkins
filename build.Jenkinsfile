@@ -6,7 +6,7 @@ pipeline {
     agent {
 
         docker {
-            image '$ECR_URL/nasim_jenkins.agent:latest'
+            image '${ECR_URL}/nasim_jenkins.agent:latest'
             args  '--user root -v /var/run/docker.sock:/var/run/docker.sock'
         }
     }
