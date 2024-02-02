@@ -4,16 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb6f7b11-ff9e-4a67-b076-fbedebb565fa" name="Changes" comment="add pr-testing" />
+    <list default="true" id="bb6f7b11-ff9e-4a67-b076-fbedebb565fa" name="Changes" comment="pr-testing.Jenkinsfile pipelines to be running on the Jenkins agent, in a Docker container.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jenkins.agent.Dockerfile_pr.save" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins.agent.Dockerfile_pr.save" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "sample__feature",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
@@ -194,7 +204,31 @@
       <option name="project" value="LOCAL" />
       <updated>1706720812705</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="pr-testing.Jenkinsfile pipelines to be running on the Jenkins agent, in a Docker container.">
+      <option name="closed" value="true" />
+      <created>1706887395208</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1706887395208</updated>
+    </task>
+    <task id="LOCAL-00024" summary="pr-testing.Jenkinsfile pipelines to be running on the Jenkins agent, in a Docker container.">
+      <option name="closed" value="true" />
+      <created>1706889265810</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1706889265810</updated>
+    </task>
+    <task id="LOCAL-00025" summary="pr-testing.Jenkinsfile pipelines to be running on the Jenkins agent, in a Docker container.">
+      <option name="closed" value="true" />
+      <created>1706889999665</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1706889999665</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -207,6 +241,7 @@
     <MESSAGE value="add jenkins_debloy" />
     <MESSAGE value="add jenkins_debloy with cleanup docker" />
     <MESSAGE value="add pr-testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="add pr-testing" />
+    <MESSAGE value="pr-testing.Jenkinsfile pipelines to be running on the Jenkins agent, in a Docker container." />
+    <option name="LAST_COMMIT_MESSAGE" value="pr-testing.Jenkinsfile pipelines to be running on the Jenkins agent, in a Docker container." />
   </component>
 </project>
