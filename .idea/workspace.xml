@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb6f7b11-ff9e-4a67-b076-fbedebb565fa" name="Changes" comment="add pr-testing">
+    <list default="true" id="bb6f7b11-ff9e-4a67-b076-fbedebb565fa" name="Changes" comment="add jenkins.agent docker &#10;+ec2 agent label">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/build.Jenkinsfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +18,13 @@
       <map>
         <entry key="$PROJECT_DIR$" value="sample_feature" />
       </map>
+    </option>
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="main" />
+      </list>
     </option>
   </component>
   <component name="MarkdownSettingsMigration">
@@ -223,7 +231,31 @@
       <option name="project" value="LOCAL" />
       <updated>1706720812705</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="add jenkins.agent docker &#10;+ec2 agent">
+      <option name="closed" value="true" />
+      <created>1706856403938</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1706856403938</updated>
+    </task>
+    <task id="LOCAL-00024" summary="add jenkins.agent docker &#10;+ec2 agent">
+      <option name="closed" value="true" />
+      <created>1706856530703</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1706856530703</updated>
+    </task>
+    <task id="LOCAL-00025" summary="add jenkins.agent docker &#10;+ec2 agent label">
+      <option name="closed" value="true" />
+      <created>1706860221616</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1706860221616</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -236,6 +268,8 @@
     <MESSAGE value="add jenkins_debloy" />
     <MESSAGE value="add jenkins_debloy with cleanup docker" />
     <MESSAGE value="add pr-testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="add pr-testing" />
+    <MESSAGE value="add jenkins.agent docker &#10;+ec2 agent" />
+    <MESSAGE value="add jenkins.agent docker &#10;+ec2 agent label" />
+    <option name="LAST_COMMIT_MESSAGE" value="add jenkins.agent docker &#10;+ec2 agent label" />
   </component>
 </project>
