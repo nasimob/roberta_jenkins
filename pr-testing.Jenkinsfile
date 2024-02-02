@@ -17,6 +17,7 @@ pipeline {
 
                 sh '''
                 which pip
+                which python3
                 pip install pytest
                 pip install pylint
                 pip install flask transformers textstat
