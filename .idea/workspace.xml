@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb6f7b11-ff9e-4a67-b076-fbedebb565fa" name="Changes" comment="pr-testing.Jenkinsfile pipelines to be running on the Jenkins agent, in a Docker container.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jenkins.agent.Dockerfile_pr.save" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins.agent.Dockerfile_pr.save" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pr-testing.Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/pr-testing.Jenkinsfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -228,7 +228,23 @@
       <option name="project" value="LOCAL" />
       <updated>1706889999665</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="pr-testing.Jenkinsfile pipelines to be running on the Jenkins agent, in a Docker container.">
+      <option name="closed" value="true" />
+      <created>1706891753646</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1706891753646</updated>
+    </task>
+    <task id="LOCAL-00027" summary="pr-testing.Jenkinsfile pipelines to be running on the Jenkins agent, in a Docker container.">
+      <option name="closed" value="true" />
+      <created>1706899082635</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1706899082635</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
