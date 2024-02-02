@@ -16,7 +16,8 @@ pipeline {
                 echo "testing"
 
                 sh '''
-                apt-get install -y python3-pip
+                curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py \
+                   && python3 get-pip.py
                 pip install pytest
                 pip install pylint
                 pip install flask transformers textstat
