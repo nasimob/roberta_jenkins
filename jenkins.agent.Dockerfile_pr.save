@@ -39,7 +39,7 @@ COPY --from=installer /usr/local/aws-cli/ /usr/local/aws-cli/
 COPY --from=installer /aws-cli-bin/ /usr/local/bin/
 COPY --from=installer /snyk/ /usr/local/bin/
 
-# Copy Python venv from pythonInstaller stage
+# Copy Python venv from Installer stage
 COPY --from=`installer /venv /venv
 COPY --from= installer /usr/bin/pip /usr/local/bin/
 
