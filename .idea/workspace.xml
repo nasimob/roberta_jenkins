@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb6f7b11-ff9e-4a67-b076-fbedebb565fa" name="Changes" comment="pr-testing.Jenkinsfile pipelines to be running on the Jenkins agent, in a Docker container.">
-      <change beforePath="$PROJECT_DIR$/jenkins.agent.Dockerfile_pr.save" beforeDir="false" afterPath="$PROJECT_DIR$/jenkins.agent.Dockerfile_pr.save" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pr-testing.Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/pr-testing.Jenkinsfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -244,7 +244,119 @@
       <option name="project" value="LOCAL" />
       <updated>1706899082635</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="pr-testing.Jenkinsfile pipelines to be running on the Jenkins agent, in a Docker container.">
+      <option name="closed" value="true" />
+      <created>1706899512788</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1706899512788</updated>
+    </task>
+    <task id="LOCAL-00029" summary="pr-testing.Jenkinsfile pipelines to be running on the Jenkins agent, in a Docker container.">
+      <option name="closed" value="true" />
+      <created>1706899671112</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1706899671112</updated>
+    </task>
+    <task id="LOCAL-00030" summary="pr-testing.Jenkinsfile pipelines to be running on the Jenkins agent, in a Docker container.">
+      <option name="closed" value="true" />
+      <created>1706899805814</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1706899805814</updated>
+    </task>
+    <task id="LOCAL-00031" summary="pr-testing.Jenkinsfile pipelines to be running on the Jenkins agent, in a Docker container.">
+      <option name="closed" value="true" />
+      <created>1706901771833</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1706901771833</updated>
+    </task>
+    <task id="LOCAL-00032" summary="pr-testing.Jenkinsfile pipelines to be running on the Jenkins agent, in a Docker container.">
+      <option name="closed" value="true" />
+      <created>1706903900299</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1706903900300</updated>
+    </task>
+    <task id="LOCAL-00033" summary="pr-testing.Jenkinsfile pipelines to be running on the Jenkins agent, in a Docker container.">
+      <option name="closed" value="true" />
+      <created>1706906569836</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1706906569836</updated>
+    </task>
+    <task id="LOCAL-00034" summary="pr-testing.Jenkinsfile pipelines to be running on the Jenkins agent, in a Docker container.">
+      <option name="closed" value="true" />
+      <created>1706912460999</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1706912460999</updated>
+    </task>
+    <task id="LOCAL-00035" summary="pr-testing.Jenkinsfile pipelines to be running on the Jenkins agent, in a Docker container.">
+      <option name="closed" value="true" />
+      <created>1706912739704</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1706912739704</updated>
+    </task>
+    <task id="LOCAL-00036" summary="pr-testing.Jenkinsfile pipelines to be running on the Jenkins agent, in a Docker container.">
+      <option name="closed" value="true" />
+      <created>1706915828900</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1706915828900</updated>
+    </task>
+    <task id="LOCAL-00037" summary="pr-testing.Jenkinsfile pipelines to be running on the Jenkins agent, in a Docker container.">
+      <option name="closed" value="true" />
+      <created>1706915917537</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1706915917537</updated>
+    </task>
+    <task id="LOCAL-00038" summary="pr-testing.Jenkinsfile pipelines to be running on the Jenkins agent, in a Docker container.">
+      <option name="closed" value="true" />
+      <created>1706916268836</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1706916268836</updated>
+    </task>
+    <task id="LOCAL-00039" summary="pr-testing.Jenkinsfile pipelines to be running on the Jenkins agent, in a Docker container.">
+      <option name="closed" value="true" />
+      <created>1706917798845</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1706917798845</updated>
+    </task>
+    <task id="LOCAL-00040" summary="pr-testing.Jenkinsfile pipelines to be running on the Jenkins agent, in a Docker container.">
+      <option name="closed" value="true" />
+      <created>1706917888941</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1706917888941</updated>
+    </task>
+    <task id="LOCAL-00041" summary="pr-testing.Jenkinsfile pipelines to be running on the Jenkins agent, in a Docker container.">
+      <option name="closed" value="true" />
+      <created>1706942894919</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1706942894919</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

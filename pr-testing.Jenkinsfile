@@ -16,7 +16,7 @@ pipeline {
                 echo "testing"
 
                 sh '''
-                source /venv/bin/activate
+                source /venv/bin
                 which pip
                 which python3
                 pip install pytest
