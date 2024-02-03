@@ -34,7 +34,7 @@ pipeline {
         }
         stage('Lint') {
         steps {
-          sh 'python3 -m pylint -f parseable --reports=no *.py > pylint.log'
+          sh '/venv/bin/python3 -m pylint -f parseable --reports=no *.py > pylint.log'
         }
 
         post {
